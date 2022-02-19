@@ -27,7 +27,7 @@ if (strlen($nome) > 40){
 }
 
 if(!is_numeric($idade)){
-    echo "Digite uma idade real";
+    echo "Digite um número em idade";
     return;
 }
 
